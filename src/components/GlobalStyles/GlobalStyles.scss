@@ -7,6 +7,8 @@
 
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 html {
@@ -18,4 +20,20 @@ body {
     font-size: 1.6rem;
     line-height: 1.5;
     text-rendering: optimizeSpeed;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 100%;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    border-radius: 3px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgba(22, 24, 35, 0.06);
+    border-radius: 3px;
 }
